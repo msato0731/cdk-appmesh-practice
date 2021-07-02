@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as CdkAppmesh from '../lib/cdk_appmesh-stack';
+import * as CdkAppmesh from '../lib/cdk-appmesh-stack';
 
 test('Empty Stack', () => {
     const app = new cdk.App();

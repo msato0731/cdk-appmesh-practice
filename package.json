@@ -1,8 +1,8 @@
 {
-  "name": "cdk_appmesh",
+  "name": "cdk-appmesh",
   "version": "0.1.0",
   "bin": {
-    "cdk_appmesh": "bin/cdk_appmesh.js"
+    "cdk-appmesh": "bin/cdk-appmesh.js"
   },
   "scripts": {
     "build": "tsc",

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { CdkAppmeshStack } from '../lib/cdk_appmesh-stack';
+import { CdkAppmeshStack } from '../lib/cdk-appmesh-stack';
 
 const app = new cdk.App();
 new CdkAppmeshStack(app, 'CdkAppmeshStack', {
